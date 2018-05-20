@@ -38,6 +38,10 @@ class Quiz {
        currentQuestionIndex = currentQuestionIndex + 1
     }
     
+    func increaseScore() {
+        score = score + 1
+    }
+    
     
     
 }
