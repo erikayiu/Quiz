@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD4E214220B9DFE6007BFB42 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E214120B9DFE6007BFB42 /* ResultsViewController.swift */; };
 		ADCF3529209E2F140057A284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF3528209E2F140057A284 /* AppDelegate.swift */; };
 		ADCF352B209E2F140057A284 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF352A209E2F140057A284 /* QuizViewController.swift */; };
 		ADCF352E209E2F140057A284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCF352C209E2F140057A284 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD4E214120B9DFE6007BFB42 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		ADCF3525209E2F140057A284 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCF3528209E2F140057A284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADCF352A209E2F140057A284 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				ADCF3528209E2F140057A284 /* AppDelegate.swift */,
 				ADCF352A209E2F140057A284 /* QuizViewController.swift */,
 				ADCF352C209E2F140057A284 /* Main.storyboard */,
+				AD4E214120B9DFE6007BFB42 /* ResultsViewController.swift */,
 				ADCF353A209E30D60057A284 /* Answer.swift */,
 				ADCF353C209E32430057A284 /* Question.swift */,
 				ADCF353E209E345C0057A284 /* Quiz.swift */,
@@ -150,6 +153,7 @@
 				ADCF353D209E32430057A284 /* Question.swift in Sources */,
 				ADCF352B209E2F140057A284 /* QuizViewController.swift in Sources */,
 				ADCF3529209E2F140057A284 /* AppDelegate.swift in Sources */,
+				AD4E214220B9DFE6007BFB42 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

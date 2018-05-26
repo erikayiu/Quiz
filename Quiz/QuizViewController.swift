@@ -76,11 +76,20 @@ class QuizViewController: UIViewController {
             show(question: quiz.currentQuestion)
         }
         else {
-            print("Out of Questions")
+            performSegue(withIdentifier: "ShowResults", sender: self)
         }
         
     }
     
+    @IBAction func unwindToQuizViewController(segue: UIStoryboardSegue) {
+        quiz.reset()
+        show(question: quiz.currentQuestion)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let resultsViewController = segue.destination as! ResultsViewController
+        resultsViewController.quiz = quiz
+    }
 
 
 }
